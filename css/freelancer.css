@@ -353,6 +353,10 @@ a:focus, a:hover, a:active {
   background-color: #2C3E50 !important;
 }
 
+.bg-tertiary {
+  background-color: #1a252f !important;
+}
+
 .text-primary {
   color: #18BC9C !important;
 }
@@ -379,4 +383,8 @@ a:focus, a:hover, a:active {
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
   background-color: #1a252f;
   border-color: #1a252f;
+}
+
+.underlined {
+  text-decoration: underline;
 }
