@@ -31,7 +31,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg bg-tertiary fixed-top text-uppercase" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Sean McCann - Portfolio</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Sean McCann</a>
         <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
@@ -56,7 +56,7 @@
     <header class="masthead text-center">
       <div class="container">
         <img class="img-fluid mb-5 d-block mx-auto" src="img/profile.png" alt="">
-        <h1 class="text-uppercase mb-0">Welcome</h1>
+        <h1 class="text-uppercase mb-0">My portfolio</h1>
         <hr class="star-dark">
         <h2 class="font-weight-light mb-0">Student - Developer</h2>
       </div>
@@ -65,12 +65,12 @@
     <!-- About Section -->
     <section class="bg-primary text-white mb-0" id="about">
         <div class="container">
-          <h2 class="text-center text-uppercase">About</h2>
+          <h2 class="text-center text-uppercase">About me</h2>
           <hr class="star-light mb-5">
           <div class="row">
             <div class="col-lg-4 ml-auto">
               <p class="lead">I am a third year Computer Science Student at NUIG with a passion for Web development, problem solving and all things Tech.</p>
-              <p class="lead">I really enjoy my course and will hopefully graduate in 2020 with a first class honors degree.</p>
+              <p class="lead">I really enjoy my course and will graduate in 2020, hopefully with a first class honors degree.</p>
             </div>
             <div class="col-lg-4 mr-auto">
               <p class="lead">My main experience is with the Mongo / Express / Node.js stack from personal projects and working with API's during my internship at <a class="text-white underlined" href="https://www.bimlauncher.com/">BIMlauncher.</a> </p>
@@ -186,8 +186,14 @@
             <div class="col-lg-8 mx-auto">
               <h2 class="text-secondary text-uppercase mb-0">Playlist Generator</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/SpotifyGreen.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <p class="mb-5">I wanted to make an app that I personally would use on a regular basis. I love music so I decided to use the spotify API to make a playlist Generator.</p>
+              <img class="img-fluid" src="img/portfolio/spotify1.png" alt="">
+              <p class="mb-5">Spotify have a public REST API which uses OAuth 2.0 to make requests on a users behalf. I used Node.js with Axios to easily make async requests to spotify. The first step was to get an authentication token which you can include in subsequent request headers.</p>
+              <img class="img-fluid" src="img/portfolio/spotify2.png" alt="">
+              <p class="mb-5">Once we have authentication out of the way we can make requests to spotify. Here a user can enter the name of an artist, we then search spotify for the artist info and profile picture. Using EJS we can display the results on the web page. Once the user is happy with the inputs we can get some recommendations.</p>
+              <img class="img-fluid" src="img/portfolio/spotify3.png" alt="">
+              <p class="mb-5">We display the resulting playlist on a table and give the user the option to add it to their spotify library.</p>
+              <p class="mb-5">I learned a lot about interacting with API's during this project, in particular using Async await and Promises in Node.js. I also used Deployed the app to a heroku site which was a good learning experience. <a class=" underlined" href="https://github.com/SeanEmac/SpotifyPlaylistApp">Github Link</a></p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close</a>
@@ -230,8 +236,10 @@
             <div class="col-lg-8 mx-auto">
               <h2 class="text-secondary text-uppercase mb-0">Data Visualisation</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/circus.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <p class="mb-5">The price of rent is a hot topic at the moment especially among students. I decided to take a dataset provided by the Central Statistics Office  <a class=" underlined" href="https://www.cso.ie/px/pxeirestat/Statire/SelectVarVal/Define.asp?maintable=RIA02&PLanguage=0">here</a> and visualise the data using Python and the Pandas library.</p>
+              <img class="img-fluid mb-5" src="img/portfolio/rent1.png" alt="">
+              <p class="mb-5">I converted the file to csv format and read the dataset into Python using pandas. From here I reduced the 750,000 row dataset down to ~10,000 rows by removing null data and filtering out data from non-cities. I plot the remaining values using matplotlib and the results show a similar increase in rent prices accross all cities</p>
+              <img class="img-fluid mb-5" src="img/portfolio/rent2.png" alt="">
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close</a>
