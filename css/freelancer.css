@@ -390,6 +390,6 @@ a:focus, a:hover, a:active {
 }
 
 .img-profile {
-  max-height: 15%;
-  max-width: 15%;
+    max-width: 15%;
+    height: auto;
 }
