@@ -388,3 +388,8 @@ a:focus, a:hover, a:active {
 .underlined {
   text-decoration: underline;
 }
+
+.img-profile {
+  max-height: 15%;
+  max-width: 15%;
+}
