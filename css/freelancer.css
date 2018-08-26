@@ -389,7 +389,7 @@ a:focus, a:hover, a:active {
   text-decoration: underline;
 }
 
-.img-profile {
+.profile {
     max-width: 15%  !important;
     height: auto  !important;
 }
