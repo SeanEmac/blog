@@ -1,7 +1,7 @@
 # Project Instructions for Claude
 
 ## Project Overview
-This is a personal blog using Astro and GitHub Pages
+This is a personal blog that uses Astro and GitHub Pages
 
 ## Development Guidelines
 - Follow existing code conventions and patterns
@@ -10,7 +10,4 @@ This is a personal blog using Astro and GitHub Pages
 - Never make large changes, make incremental changes that are easy to validate
 
 ## Key Commands
-Add project-specific commands here as needed.
-
-## Notes
-Add any project-specific context or requirements here.
+Commands are defined in README.md
