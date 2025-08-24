@@ -1,7 +1,7 @@
 # Project Instructions for Claude
 
 ## Project Overview
-This is a personal blog using Jekyll and GitHub Pages
+This is a personal blog using Astro and GitHub Pages
 
 ## Development Guidelines
 - Follow existing code conventions and patterns
