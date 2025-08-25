@@ -3,6 +3,7 @@ import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import { Image } from 'astro:assets';
 import assiniboineImage from '../assets/about/Assiniboine.jpg';
 import capeTownImage from '../assets/about/CapeTown.jpg';
 import outsideImage from '../assets/about/Outside.jpg';
@@ -19,7 +20,7 @@ import atTheParkImage from '../assets/about/AtThePark.jpg';
 		<Header />
 		<main>
 			<h5>Welcome to my blog :)</h5>
-			<img src={assiniboineImage.src} alt="Assiniboine Mountain" class="cover-image" />
+			<Image src={assiniboineImage} alt="Assiniboine Mountain" class="cover-image" />
 
 			<p>
 				I'm Sean McCann, an Irish Software Engineer living in Vancouver, Canada.				
@@ -35,20 +36,20 @@ import atTheParkImage from '../assets/about/AtThePark.jpg';
 				<div class="image-column">
 					<div class="image-item">
 						<p class="image-text">I've lived in Vancouver since 2022</p>
-						<img src={atTheParkImage.src} alt="At The Park" />
+						<Image src={atTheParkImage} alt="At The Park" />
 					</div>
 					<div class="image-item">
 						<p class="image-text">I like a challenge</p>
-						<img src={triathlonImage.src} alt="Triathlon" />
+						<Image src={triathlonImage} alt="Triathlon" />
 					</div>
 				</div>
 				<div class="image-column">
 					<div class="image-item">
-						<img src={capeTownImage.src} alt="Cape Town" />
+						<Image src={capeTownImage} alt="Cape Town" />
 						<p class="image-text">I've visited 5 continents, so far...</p>
 					</div>
 					<div class="image-item">
-						<img src={outsideImage.src} alt="Outside" />
+						<Image src={outsideImage} alt="Outside" />
 						<p class="image-text">I'm an outdoor enthusiast</p>
 					</div>
 				</div>
@@ -62,7 +63,6 @@ import atTheParkImage from '../assets/about/AtThePark.jpg';
 				}
 				
 				.cover-image {
-					height: 400px;
 					border-radius: 12px;
 					box-shadow: var(--box-shadow);
 				}
