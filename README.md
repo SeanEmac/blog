@@ -1,4 +1,6 @@
-# Astro Blog
+# Personal Blog
+
+Personal blog using Astro, hosted with Cloudflare pages.
 
 ## Commands
 
@@ -15,5 +17,4 @@ All commands are run from the root of the project, from a terminal:
 
 ## Documentation References
 
-[Astro <-> Cloudflare - deploying with Git](https://docs.astro.build/en/guides/deploy/cloudflare/#how-to-deploy-a-site-with-git
-)
+[Astro <-> Cloudflare - deploying with Git](https://docs.astro.build/en/guides/deploy/cloudflare/#how-to-deploy-a-site-with-git)
